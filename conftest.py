@@ -72,7 +72,8 @@ def _capture_screenshot():
 def driver():
     global _driver
     print('------------open browser------------')
-    _driver = webdriver.Firefox()
+    # _driver = webdriver.Firefox()
+    _driver = webdriver.Chrome()
     _driver.maximize_window()
     yield _driver
     print('------------close browser------------')

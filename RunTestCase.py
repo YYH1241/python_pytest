@@ -10,7 +10,7 @@
 import sys
 import pytest
 
-from config.conf import ROOT_DIR, HTML_NAME
+from PytestAutoTestFrameWork.config.conf import ROOT_DIR, HTML_NAME
 
 # from util.sendMailForReprot import SendMailWithReport
 
